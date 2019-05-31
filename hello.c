@@ -3,9 +3,9 @@
 void checar_idade_par_impar(int i)
 {
     if(i & 0x01)
-           printf(" eh impar");
+           printf(" eh impar\n");
     else   
-           printf("eh par");
+           printf("eh par\n");
 }
 
 int main ()
